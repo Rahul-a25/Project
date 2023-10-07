@@ -1,0 +1,44 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+}
+.cart-main{
+    width: 90%;
+    height: 300px;
+    
+    box-shadow: 0px 0px 10px gray;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.img-wala{
+    width: 40%;
+    height: 100%;
+  
+}
+
+.content{
+    width: 40%;
+    height: 100%;
+   
+}
+.img-wala img{
+    width: 100%;
+    height: 100%;
+}
+.btn-wala{
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.btn-wala:hover{
+    background-color: rgb(215, 231, 240);
+    cursor: pointer;
+}
+.content p{
+    font-size: 20px;
+}
